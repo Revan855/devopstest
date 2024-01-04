@@ -1,0 +1,7 @@
+#!/bin/sh
+printf 'compiling...\n'
+cc -c foo.c
+cc -c bar.c
+cc -c qux.c
+cc -o myprog foo.o bar.o qux.o
+printf 'done.\n
